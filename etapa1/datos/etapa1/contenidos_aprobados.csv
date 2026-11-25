@@ -17,13 +17,15 @@ Válido del 23/10 al 23/11 o hasta agotar stock. No acumulable con otras promoci
 2026-11-02 08:30,LinkedIn,Todos,"Hornero, de todo el país","Desde AMBA, Córdoba, Rosario, Mendoza y Tucumán, nuestros centros de distribución trabajan para que cada casa de la Argentina tenga lo que necesita. Gracias a los equipos que lo hacen posible todos los días. #Logística #Federal"
 2026-11-06 19:00,WhatsApp,Nuevos,Llegó la primavera al jardín,"Hola, {nombre}. Llegó la primavera 🌱 y tu jardín lo sabe. Mirá macetas, reposeras y riego en hornero.com.ar/jardin"
 2026-11-25 11:01,Instagram,Premium,Lanzamiento: Muebles de exterior premium,"Descubrí la nueva colección de muebles de exterior. Diseñados para que tu patio sea un espacio de estilo y comodidad. Cada pieza combina forma y funcionalidad, perfecta para disfrutar el aire libre con elegancia. Link en la bio. #HorneroEnCasa #MueblesExteriores #EstiloAlAireLibre #Premium #DiseñoExterior"
-2026-11-25 11:01,Email,Recurrentes,Recuperación entrega con problema,"Asunto: 🚚 Tu pedido tuvo un inconveniente  
-Hola, {nombre}:  
-Sabemos que tu entrega no fue la esperada. Para que no vuelva a pasar, estamos [ACCIÓN DE MEJORA].  
-Te dejamos un cupón de [X%] para tu próxima compra.  
-[Botón: Usá tu cupón]  
-Legal: Válido del DD/MM al DD/MM o hasta agotar stock. No acumulable con otras promociones."
-2026-11-25 11:01,WhatsApp,Nuevos,Promoción Cocina 15%,"Hola, {nombre}. ¿Listo para renovar tu cocina? Con el 15% de descuento en toda la categoría, tenés variedad y calidad al alcance. Aprovechá y comprá con facilidad. 👉 [LINK]  
+2026-11-25 11:01,Email,Recurrentes,Recuperación entrega con problema,"Asunto: Problema con tu entrega
+Hola, {nombre}:
+Sabemos que tu entrega tuvo un problema y te agradecemos la paciencia.
+Para que no vuelva a pasar, estamos [ACCIÓN DE MEJORA].
+Te dejamos un cupón de [X%] para tu próxima compra.
+[Botón: Usá tu cupón]
+Si necesitás ayuda, escribinos a [CONTACTO]
+[Legal: Válido del DD/MM al DD/MM o hasta agotar stock. No acumulable con otras promociones.]"
+2026-11-25 11:01,WhatsApp,Nuevos,Promoción Cocina 15%,"Hola, {nombre}. ¿Listo para renovar tu cocina? Con el 15% de descuento en toda la categoría, tenés variedad y calidad al alcance. Aprovechá y comprá con facilidad. 👉 [LINK]
 Bases y condiciones: hornero.com.ar/legales"
-2026-11-25 11:01,Push,Recurrentes,Aire acondicionado para cada espacio,"Título: Aire acondicionado para cada espacio  
+2026-11-25 11:01,Push,Recurrentes,Aire acondicionado para cada espacio,"Título: Aire acondicionado para cada espacio
 Texto: Descubrí el modelo que se adapta a tu sala, dormitorio o oficina. Abrí la app. 🌬️"
