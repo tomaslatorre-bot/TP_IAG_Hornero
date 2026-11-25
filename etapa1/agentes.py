@@ -553,7 +553,9 @@ NOTA_RECUPERACION = """RECUPERACIÓN DE CLIENTES (sección 8 de la guía):
 - El beneficio se ofrece en el cuerpo, antes del botón, con su valor como marcador: "te dejamos un
   cupón de [X%] para tu próxima compra". El botón lleva a usarlo y el legal va al pie.
 - La acción de mejora va en una oración del cuerpo con el marcador, por ejemplo: "Para que no
-  vuelva a pasar, estamos [ACCIÓN DE MEJORA]"."""
+  vuelva a pasar, estamos [ACCIÓN DE MEJORA]".
+- La guía pide también un canal directo de contacto: va como marcador en una oración del cuerpo,
+  por ejemplo: "Si necesitás ayuda, escribinos a [CONTACTO]"."""
 
 # Aclaraciones de la guía que valen para UN canal. Van solo en la entrada del redactor de ese
 # canal: en el prompt general, el email copiaba el link de legales de WhatsApp y el WhatsApp

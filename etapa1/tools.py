@@ -213,6 +213,8 @@ def guardar_pieza(canal: str, segmento: Literal["Nuevos", "Recurrentes", "Premiu
     if segmento not in SEGMENTOS:
         return f"No se guardó: el segmento debe ser uno de {SEGMENTOS}."
 
+    # Sin espacios al final de cada línea: el modelo deja saltos de Markdown ("  \n")
+    texto = "\n".join(linea.rstrip() for linea in texto.strip().splitlines())
     df = _leer_contenidos()
     repetida = (df["titulo"].map(_normalizar) == _normalizar(titulo)) & \
                (df["texto"].map(_normalizar) == _normalizar(texto))
