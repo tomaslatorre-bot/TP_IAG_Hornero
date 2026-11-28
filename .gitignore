@@ -11,3 +11,6 @@ __pycache__/
 indices/
 # Archivos de macOS
 .DS_Store
+
+# Evaluaciones fuera de la consigna (evaluar.py): no van en el entregable
+etapa1/evaluaciones/
