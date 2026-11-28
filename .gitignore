@@ -7,8 +7,9 @@ venv/
 # Archivos que genera Python
 __pycache__/
 
-# Índices FAISS: se arman solos en la primera consulta
-indices/
+# Índices FAISS: el de la etapa 1 se sube para que la primera consulta no tenga que armarlo.
+# Si cambia el PDF, borren la carpeta indices/ y se vuelve a armar sola.
+etapa2/indices/
 # Archivos de macOS
 .DS_Store
 
