@@ -46,8 +46,13 @@ CONSULTAS = {
     "4": ("Armá un push para clientes Recurrentes sobre aires acondicionados que no repita lo que "
           "ya les mandamos.", "aprobada"),
     "fuera": ("¿Quién va a ganar el Mundial?", "fuera_de_alcance"),
-    # Pedidos que NO están en la consigna, para ver que los controles no rechazan de más con
-    # canales, segmentos y datos distintos (LinkedIn, "Todos", envío sin cargo con fecha, tips)
+    # Pedidos que NO están en la consigna. Los controles por código se ajustaron mirando las 4
+    # consultas de arriba; estos sirven para ver que no rechazan de más con otros pedidos.
+    # e1: un canal que no está en la consigna (LinkedIn), para Todos, institucional y sin promo.
+    # e2: un email que no es de recuperación, con un beneficio distinto de un % (envío sin cargo)
+    #     y una fecha que da el pedido, que el control de vigencias no tiene que rechazar.
+    # e3: contenido de valor y no de venta (tips en lista), que pone a prueba los controles de
+    #     emojis numerados y de tuteo en listas.
     "e1": ("Escribí un post de LinkedIn contando que abrimos un nuevo centro de distribución en "
            "Neuquén.", "aprobada"),
     "e2": ("Armá un email para clientes Premium con envío sin cargo en compras de Living hasta el "
