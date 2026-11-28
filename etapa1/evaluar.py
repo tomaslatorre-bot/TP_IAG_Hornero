@@ -1,5 +1,5 @@
 """
-evaluar.py: evaluación de la etapa 1 con varias corridas por consulta (Clase 4).
+evaluar.py: evaluación de la etapa 1 con varias corridas por consulta.
 
 Un agente no se evalúa con una sola corrida: el mismo pedido puede salir bien una vez y mal
 la siguiente. medir() repite cada consulta de prueba y cuenta en cuántas corridas funciona,

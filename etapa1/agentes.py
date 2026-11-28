@@ -55,7 +55,7 @@ from tools import (SEGMENTOS, buscar_en_guia, canales_disponibles, dominios_del_
 load_dotenv()
 
 class ContadorUso(BaseCallbackHandler):
-    """Cuenta llamadas al LLM y tokens (Clase 4). LangChain llama a on_llm_end cada vez que
+    """Cuenta llamadas al LLM y tokens. LangChain llama a on_llm_end cada vez que
     termina una llamada; los tokens son los que informa Groq en usage_metadata.
     Es uno solo para todo el módulo: si dos pedidos corren a la vez, los números se mezclan
     (en la app de Streamlit, con un usuario, no pasa)."""
