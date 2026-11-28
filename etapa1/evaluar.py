@@ -6,10 +6,13 @@ la siguiente. medir() repite cada consulta de prueba y cuenta en cuántas corrid
 con las llamadas al LLM, los tokens y los segundos de cada una (ContadorUso de agentes.py).
 
 Cómo correrlo (desde esta carpeta, con el venv activado):
-    python evaluar.py                      # las 4 consultas de la consigna, 3 corridas cada una
-    python evaluar.py --corridas 5 --consultas 3 4
-    python evaluar.py --consultas fuera    # el caso límite fuera de alcance
-    python evaluar.py --consultas e1 e2 e3 --corridas 2   # fuera de la consigna: va a evaluaciones/e1_e2_e3.csv
+    python evaluar.py                               # las 4 consultas de la consigna, 3 corridas cada una
+    python evaluar.py --corridas 5 --consultas 3 4  # solo algunas consultas, con otra cantidad de corridas
+    python evaluar.py --consultas fuera             # el caso fuera de alcance (el Mundial): funciona si lo rechaza
+    python evaluar.py --consultas e1 e2 e3 --corridas 2   # pedidos que no están en la consigna
+
+Las consultas de la consigna (1 a 4) se guardan en evaluacion_etapa1.csv, que se pisa en cada
+corrida. Las demás van a evaluaciones/<consultas>.csv, que no se sube al repo (.gitignore).
 
 "Funcionó" quiere decir que la pieza quedó aprobada (por el revisor y por los controles de
 código). Aprobada no es lo mismo que bien escrita: el CSV de salida guarda el texto de cada
